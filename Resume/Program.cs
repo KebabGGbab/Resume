@@ -10,6 +10,9 @@ namespace Resume
 
             WebApplication app = builder.Build();
 
+            app.UseRouting();
+
+            app.MapStaticAssets().ShortCircuit();
             app.MapControllers();
 
             app.Run();
