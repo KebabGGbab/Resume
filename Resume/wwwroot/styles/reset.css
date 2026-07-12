@@ -1,1 +1,18 @@
 ﻿/* Сброс стилей браузера */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+html,
+body {
+    display: block;
+}
+
+head {
+    display: none;
+}
