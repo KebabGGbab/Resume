@@ -16,3 +16,10 @@ body {
 head {
     display: none;
 }
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+}
