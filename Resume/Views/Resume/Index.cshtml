@@ -1,6 +1,6 @@
 ﻿@{
-    ViewBag.Description = "Резюме на C#/.NET Developer. Резюме пригодно для фронтенд, бекенд и фуллстек вакансии. В резюме указана информацию: о себе, стек, опыт работы, образование.";
-    ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGGbab)";
+ViewBag.Description = "Резюме на C#/.NET Developer. Резюме пригодно для фронтенд, бекенд и фуллстек вакансии. В резюме указана информацию: о себе, стек, опыт работы, образование.";
+ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGGbab)";
 }
 
 <aside>
@@ -10,9 +10,9 @@
          asp-append-version="true">
 
     <address>
-    <ul>
+        <ul>
 
-        <li>
+            <li>
                 <a href="https://vk.com/kebabggbab"
                    target="_blank">
 
@@ -20,10 +20,10 @@
                          src="~/images/social/vk.svg"
                          alt="Профиль &quot;ВКонтакте&quot;"
                          asp-append-version="true">
-            </a>
-        </li>
+                </a>
+            </li>
 
-        <li>
+            <li>
                 <a href="https://max.ru/u/f9LHodD0cOJTZqQS7GygvCRqaCYsvRtAyguPi7Zs9kHc4BfXlS21xmVTT1g"
                    target="_blank">
 
@@ -31,10 +31,10 @@
                          src="~/images/social/max.svg"
                          alt="Профиль &quot;MAX&quot;"
                          asp-append-version="true">
-            </a>
-        </li>
+                </a>
+            </li>
 
-        <li>
+            <li>
                 <a href="https://github.com/KebabGGbab"
                    target="_blank">
 
@@ -42,47 +42,51 @@
                          src="~/images/social/github.svg"
                          alt="Профиль &quot;GitHub&quot;"
                          asp-append-version="true">
-            </a>
-        </li>
+                </a>
+            </li>
 
         </ul>
 
-            <a href="mailto:kebabggbab@gmail.com">
+        <a href="mailto:kebabggbab@gmail.com">
             Email: kebabggbab@gmail.com
-            </a>
+        </a>
     </address>
 
 </aside>
-<section>
-    <h1>
+
+<section class="data-block-container">
+    <h1 class="top-header">
         Федотов Артем Олегович<br>
         C#/.NET Developer
     </h1>
 
-    <section>
-        <h2>
+    <section class="data-block">
+
+        <h2 class="data-block-header">
             Основная информация
         </h2>
 
-        <p>
+        <p class="information-unit">
             Место проживания: Россия, Кемеровская обл. г. Новокузнецк
         </p>
 
-        <p>
+        <p class="information-unit">
             Гражданство: Российская Федерация
         </p>
 
-        <p>
+        <p class="information-unit">
             Дата рождения 15.06.2004 (@((DateTime.UtcNow.Year - new DateTime(2004, 06, 15).Year)))
         </p>
+
     </section>
 
-    <section>
-        <h2>
+    <section class="data-block">
+
+        <h2 class="data-block-header">
             Достижения
         </h2>
 
-        <table>
+        <table class="information-unit">
             <tr>
                 <td>
                     <span>2026</span>
@@ -92,18 +96,20 @@
                 </td>
             </tr>
         </table>
+
     </section>
 
-    <section>
-        <h2>
+    <section class="data-block">
+
+        <h2 class="data-block-header">
             Образование
         </h2>
 
-        <h3>
+        <h3 class="data-block-subheader">
             Основное
         </h3>
 
-        <table>
+        <table class="information-unit">
             <tr>
                 <td>
                     <span>
@@ -112,19 +118,19 @@
                 </td>
                 <td>
                     <span>
-                        Сибирский государственный индустриальный университет, Институт информационных технологий 
-                        и автоматизированных систем, направление подготовки 09.03.02 «Информационные системы и технологии», 
+                        Сибирский государственный индустриальный университет, Институт информационных технологий
+                        и автоматизированных систем, направление подготовки 09.03.02 «Информационные системы и технологии»,
                         диплом бакалавра с отличием.
                     </span>
                 </td>
             </tr>
         </table>
 
-        <h3>
+        <h3 class="data-block-subheader">
             Дополнительное
         </h3>
 
-        <table>
+        <table class="information-unit">
             <tr>
                 <td>
                     <span>
@@ -155,12 +161,13 @@
 
     </section>
 
-    <section>
-        <h2>
+    <section class="data-block">
+
+        <h2 class="data-block-header">
             Стек
         </h2>
 
-        <table>
+        <table class="information-unit">
             <tr>
                 <td>Языки программирования</td>
                 <td>C#, JavaScript</td>
@@ -210,52 +217,54 @@
                 <td>Roslyn API, NuGet</td>
             </tr>
         </table>
+
     </section>
 
-    <section>
-        <h2>
+    <section class="data-block">
+
+        <h2 class="data-block-header">
             Опыт работы
         </h2>
 
-        <table>
+        <table class="information-unit">
             <tbody>
-            <tr>
-                <td>
+                <tr>
+                    <td>
                         04.2026 - 05.2026
-                </td>
-                <td>
+                    </td>
+                    <td>
                         ФГБОУ ВО «СибГИУ», преддипломная практика.<br>
-                    Функциональные обязанности:
-                    <ul>
-                        <li>
-                            разработка сценариев для тестирования официального веб-сайта вуза;
-                        </li>
-                        <li>
-                            автоматизированное тестирование веб-сайта;
-                        </li>
-                        <li>
-                            ручное тестирование веб-сайта.
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
+                        Функциональные обязанности:
+                        <ul>
+                            <li>
+                                разработка сценариев для тестирования официального веб-сайта вуза;
+                            </li>
+                            <li>
+                                автоматизированное тестирование веб-сайта;
+                            </li>
+                            <li>
+                                ручное тестирование веб-сайта.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         11.2024
-                </td>
-                <td>
+                    </td>
+                    <td>
                         ООО «Контур-Новокузнецк», стажировка.<br>
-                    Функциональные обязанности:
-                    <ul>
-                        <li>
-                            разработка расширения для CRM-системы;
-                        </li>
-                        <li>
-                            участие в SCRUM’ах.
-                        </li>
-                    </ul>
-                </td>
-            </tr>
+                        Функциональные обязанности:
+                        <ul>
+                            <li>
+                                разработка расширения для CRM-системы;
+                            </li>
+                            <li>
+                                участие в SCRUM’ах.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>

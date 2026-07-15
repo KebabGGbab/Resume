@@ -1,1 +1,56 @@
-﻿
+﻿.top-header {
+    font-size: 40px;
+    margin: 0px 0px 45px;
+}
+
+.data-block {
+    width: calc(40% + 50px);
+    margin: 40px 0px 40px;
+    padding: 30px 20px 15px;
+    border-radius: 10px;
+    border: 1px solid #303038;
+    background-color: #0f1420;
+}
+
+.data-block-container > .data-block:last-of-type {
+    margin: 40px 0px 0px;
+}
+
+.data-block-container > .data-block:first-of-type {
+    margin: 0px;
+}
+
+.data-block-header {
+    margin: 0px 0px 25px;
+}
+
+.data-block-subheader {
+    margin: 25px 0px 15px;
+}
+
+.information-unit {
+    margin: 10px 0px 10px;
+}
+
+/* Таблицы */
+
+table.information-unit {
+    border: 1px #303038 solid;
+}
+
+table.information-unit > tbody > tr:nth-child(odd) {
+    background-color: #151A26;
+}
+
+table.information-unit > tbody > tr:nth-child(even) {
+    background-color: #191E2A;
+}
+
+table.information-unit > tbody > tr:hover {
+    background-color: #2f1930;
+}
+
+th,
+td {
+    padding: 10px 10px 10px;
+}
