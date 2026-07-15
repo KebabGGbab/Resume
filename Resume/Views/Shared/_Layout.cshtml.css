@@ -1,1 +1,15 @@
-﻿
+﻿.layout-body {
+    background-image: 
+        radial-gradient(ellipse 25% 20% at top -5% right 25%, rgba(168, 116, 255, 0.18), rgba(10, 13, 20, 0)), 
+        radial-gradient(ellipse 55% 35% at top 20% left 10%, rgba(52, 227, 255, 0.12), rgba(10, 13, 20, 0)),
+        radial-gradient(ellipse 40% 27% at bottom 15% right 10%, rgba(150, 255, 52, 0.11), rgba(10, 13, 20, 0)),
+        linear-gradient(180deg, #0a0d14 0%, #0b101a 50%, #0a0d14 100%);
+    color: white;
+}
+
+.layout-footer {
+    padding: 15px;
+    margin-top: 50px;
+    background-color: rgba(153, 153, 153, 0.09);
+    border: 1px solid #303038;
+}
