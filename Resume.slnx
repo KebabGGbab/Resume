@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="Resume/Resume.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/Resume.WebApi/Resume.WebApi.csproj" />
+  </Folder>
 </Solution>

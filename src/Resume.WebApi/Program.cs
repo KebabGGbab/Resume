@@ -10,6 +10,18 @@ namespace Resume
 
             WebApplication app = builder.Build();
 
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
             app.UseRouting();
 
             app.MapStaticAssets().ShortCircuit();
