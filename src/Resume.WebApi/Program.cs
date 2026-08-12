@@ -1,4 +1,4 @@
-namespace Resume
+namespace Resume.WebApi
 {
     public class Program
     {

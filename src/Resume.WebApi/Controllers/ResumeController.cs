@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Resume.Controllers
+namespace Resume.WebApi.Controllers
 {
     [Route("[controller]/[action]")]
     public class ResumeController : Controller
