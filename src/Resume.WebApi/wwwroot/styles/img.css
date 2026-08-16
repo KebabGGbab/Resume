@@ -1,0 +1,11 @@
+﻿/* Глобальные стили для тега <img> */
+
+img.photo {
+    height: 360px;
+    width: 270px;
+}
+
+img.social {
+    height: 30px;
+    width: 30px;
+}

@@ -3,11 +3,16 @@ ViewBag.Description = "Резюме на C#/.NET Developer. Резюме при�
 ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGGbab)";
 }
 
+@section links {
+    <th:link href="~/styles/img.css" rel="stylesheet" />
+}
+
 <aside>
-    <img class="photo"
+
+    <th:img class="photo"
          src="/images/photo.jpg"
          alt="Моя фотография"
-         asp-append-version="true">
+            asp-append-version="true" />
 
     <address>
         <ul>
@@ -16,10 +21,10 @@ ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGG
                 <a href="https://vk.com/kebabggbab"
                    target="_blank">
 
-                    <th:img class="social-icon"
+                    <th:img class="social"
                          src="~/images/social/vk.svg"
                          alt="Профиль &quot;ВКонтакте&quot;"
-                         asp-append-version="true">
+                            asp-append-version="true" />
                 </a>
             </li>
 
@@ -27,10 +32,10 @@ ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGG
                 <a href="https://max.ru/u/f9LHodD0cOJTZqQS7GygvCRqaCYsvRtAyguPi7Zs9kHc4BfXlS21xmVTT1g"
                    target="_blank">
 
-                    <th:img class="social-icon"
+                    <th:img class="social"
                          src="~/images/social/max.svg"
                          alt="Профиль &quot;MAX&quot;"
-                         asp-append-version="true">
+                            asp-append-version="true" />
                 </a>
             </li>
 
@@ -38,10 +43,10 @@ ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGG
                 <a href="https://github.com/KebabGGbab"
                    target="_blank">
 
-                    <th:img class="social-icon"
+                    <th:img class="social"
                          src="~/images/social/github.svg"
                          alt="Профиль &quot;GitHub&quot;"
-                         asp-append-version="true">
+                            asp-append-version="true" />
                 </a>
             </li>
 
