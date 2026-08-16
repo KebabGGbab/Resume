@@ -28,6 +28,11 @@ head {
     display: none;
 }
 
+a {
+    outline: none;
+    text-decoration: underline;
+}
+
 table {
     table-layout: fixed;
     border-collapse: collapse;
