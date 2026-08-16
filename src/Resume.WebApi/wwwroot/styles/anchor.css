@@ -1,3 +1,17 @@
 ﻿a {
     text-decoration: none;
 }
+
+a.email:link {
+    color: rgb(255, 0, 255);
+}
+
+a.email:hover,
+a.email:focus {
+    padding: 3px 0px 2px;
+    border-bottom: 1px solid;
+}
+
+a.email:active {
+    color: rgb(255, 0, 0);
+}

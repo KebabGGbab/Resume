@@ -5,6 +5,7 @@ ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGG
 
 @section links {
     <th:link href="~/styles/img.css" rel="stylesheet" />
+    <th:link href="~/styles/anchor.css" rel="stylesheet" />
 }
 
 <aside>
@@ -52,9 +53,15 @@ ViewBag.Title = "Резюме C#/.NET Developer - Федотов А.О. (KebabGG
 
         </ul>
 
-        <a href="mailto:kebabggbab@gmail.com">
-            Email: kebabggbab@gmail.com
+        <p>
+            <span class="email-label">
+                Email:
+            </span>
+
+            <a class="email" href="mailto:kebabggbab@gmail.com">
+                kebabggbab@gmail.com
         </a>
+        </p>
     </address>
 
 </aside>
