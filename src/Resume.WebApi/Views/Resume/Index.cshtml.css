@@ -1,4 +1,11 @@
-﻿.top-header {
+﻿.layout-page {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    column-gap: 50px;
+}
+
+.top-header {
     margin: 30px 0px 45px;
     text-align: center;
 }
