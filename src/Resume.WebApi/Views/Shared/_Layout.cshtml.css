@@ -6,6 +6,11 @@
         linear-gradient(180deg, #0a0d14 0%, #0b101a 50%, #0a0d14 100%);
 }
 
+.layout-main {
+    max-width: 70%;
+    margin: 0px auto;
+}
+
 .layout-footer {
     padding: 15px;
     margin-top: 50px;
