@@ -10,21 +10,20 @@
     text-align: center;
 }
 
+/* Основная информация */
+
+.data-block-container {
+    flex: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 40px;
+}
+
 .data-block {
-    width: calc(40% + 50px);
-    margin: 40px 0px 40px;
     padding: 30px 20px 15px;
     border-radius: 10px;
     border: 1px solid #303038;
-    background-color: #0f1420;
-}
-
-.data-block-container > .data-block:last-of-type {
-    margin: 40px 0px 0px;
-}
-
-.data-block-container > .data-block:first-of-type {
-    margin: 0px;
+    background-color: rgb(15, 20, 32);
 }
 
 .data-block-header {
