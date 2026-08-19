@@ -16,6 +16,34 @@
     left: 10px;
 }
 
+/* Панель с фотографией и контактами */
+
+.contact-bar {
+    flex: initial;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 1px solid #303038;
+    background-color: rgba(15, 20, 32, 0.4);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.contacts {
+    flex: initial;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.socials {
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 15px;
+}
+
 /* Основная информация */
 
 .data-block-container {
