@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: none;
     list-style: none;
     color: inherit;
     font-family: inherit;
@@ -18,8 +19,9 @@ html {
     color: rgb(255, 255, 255);
 }
 
-html,
-body {
+html, body, main, section, aside, 
+address, article, nav, header, footer, 
+h1, h2, h3, h4, h5, h6, h7 {
     display: block;
 }
 
