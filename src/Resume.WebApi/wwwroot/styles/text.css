@@ -8,3 +8,15 @@
     line-height: 1.5;
     color: rgb(222, 222, 222);
 }
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
