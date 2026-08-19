@@ -3,9 +3,11 @@
 img.photo {
     height: 360px;
     width: 270px;
+    display: block;
 }
 
 img.social {
     height: 30px;
     width: 30px;
+    display: block;
 }
