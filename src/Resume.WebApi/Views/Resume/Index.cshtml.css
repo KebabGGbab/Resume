@@ -47,6 +47,32 @@
     column-gap: 15px;
 }
 
+/* Панель навигации по текущей странице */
+
+.reference-bar {
+    flex: initial;
+}
+
+.reference-content {
+}
+
+.reference-header {
+    margin: 0 0 1em;
+}
+
+.reference-list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 0.75em;
+}
+
+.reference-item:hover {
+    text-decoration: underline;
+    color: var(--color-cerulean);
+}
+
 /* Основная информация */
 
 .data-block-container {

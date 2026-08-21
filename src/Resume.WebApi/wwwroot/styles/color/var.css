@@ -4,6 +4,12 @@
     initial-value: rgb(0 0 0 / 0%);
 }
 
+@property --color-cerulean {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(0 123 167);
+}
+
 @property --color-lime {
     syntax: "<color>";
     inherits: true;
