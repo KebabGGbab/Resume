@@ -22,8 +22,8 @@
     flex: initial;
     padding: 20px 15px;
     border-radius: 10px;
-    border: 1px solid #303038;
-    background-color: rgba(15, 20, 32, 0.4);
+    border: 1px solid var(--color-charcoal);
+    background-color: color-mix(in srgb, var(--color-night-ink) 60%, var(--color-transparent) 100%);
     display: flex;
     flex-direction: column;
     row-gap: 15px;
@@ -56,8 +56,8 @@
 .data-block {
     padding: 30px 20px 15px;
     border-radius: 10px;
-    border: 1px solid #303038;
-    background-color: rgb(15, 20, 32);
+    border: 1px solid var(--color-charcoal);
+    background-color: var(--color-night-ink);
 }
 
 .data-block-header {
@@ -75,19 +75,19 @@
 /* Таблицы */
 
 table.information-unit {
-    border: 1px #303038 solid;
+    border: 1px solid var(--color-charcoal);
 }
 
 table.information-unit > tbody > tr:nth-child(odd) {
-    background-color: #151A26;
+    background-color: var(--color-dark-blue-1);
 }
 
 table.information-unit > tbody > tr:nth-child(even) {
-    background-color: #191E2A;
+    background-color: var(--color-dark-blue-2);
 }
 
 table.information-unit > tbody > tr:hover {
-    background-color: #2f1930;
+    background-color: var(--color-kokimurasaki-purple);
 }
 
 th,

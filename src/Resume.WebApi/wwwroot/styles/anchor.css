@@ -3,7 +3,7 @@
 }
 
 a.email:link {
-    color: rgb(255, 0, 255);
+    color: var(--color-fuchsia);
 }
 
 a.email:hover,
@@ -13,5 +13,5 @@ a.email:focus {
 }
 
 a.email:active {
-    color: rgb(255, 0, 0);
+    color: var(--color-red);
 }

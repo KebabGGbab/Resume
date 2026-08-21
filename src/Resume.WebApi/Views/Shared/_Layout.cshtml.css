@@ -1,9 +1,21 @@
 ﻿.layout-body {
+    background-color: var(--color-abyssal);
     background-image: 
-        radial-gradient(ellipse 25% 20% at top -5% right 25%, rgba(168, 116, 255, 0.18), rgba(10, 13, 20, 0)), 
-        radial-gradient(ellipse 55% 35% at top 20% left 10%, rgba(52, 227, 255, 0.12), rgba(10, 13, 20, 0)),
-        radial-gradient(ellipse 40% 27% at bottom 15% right 10%, rgba(150, 255, 52, 0.11), rgba(10, 13, 20, 0)),
-        linear-gradient(180deg, #0a0d14 0%, #0b101a 50%, #0a0d14 100%);
+        radial-gradient(ellipse 
+                        25% 20% 
+                        at top -5% right 25%, 
+                        color-mix(in srgb, var(--color-amethyst) 36%, var(--color-transparent) 100%), 
+                        color-mix(in srgb, var(--color-abyssal) 0%, var(--color-transparent) 100%)), 
+        radial-gradient(ellipse
+                        55% 35%
+                        at top 20% left 10%,
+                        color-mix(in srgb, var(--color-aqua) 18%, var(--color-transparent) 100%),
+                        color-mix(in srgb, var(--color-abyssal) 0%, var(--color-transparent) 100%)),
+        radial-gradient(ellipse 
+                        40% 27% 
+                        at bottom 15% right 10%, 
+                        color-mix(in srgb, var(--color-lime) 11%, var(--color-transparent) 100%), 
+                        color-mix(in srgb, var(--color-abyssal) 0%, var(--color-transparent) 100%));
 }
 
 .layout-main {
@@ -14,8 +26,8 @@
 .layout-footer {
     padding: 15px;
     margin-top: 50px;
-    background-color: rgba(153, 153, 153, 0.09);
-    border: 1px solid #303038;
+    background-color: color-mix(in srgb, var(--color-gray) 15%, var(--color-transparent) 100%);
+    border: 1px solid var(--color-charcoal);
 }
 
 .copyright {

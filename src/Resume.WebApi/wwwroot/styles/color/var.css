@@ -1,0 +1,83 @@
+﻿@property --color-transparent {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(0 0 0 / 0%);
+}
+
+@property --color-lime {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(0 255 0);
+}
+
+@property --color-aqua {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(0 255 255);
+}
+
+@property --color-abyssal {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(10 13 20);
+}
+
+@property --color-night-ink {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(13 20 32);
+}
+
+@property --color-dark-blue-1 {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(21 26 38);
+}
+
+@property --color-dark-blue-2 {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(25 30 42);
+}
+
+@property --color-kokimurasaki-purple {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(58 36 59);
+}
+
+@property --color-charcoal {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(74 74 74);
+}
+
+@property --color-gray {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(137 137 137);
+}
+
+@property --color-amethyst {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(153 102 204);
+}
+
+@property --color-platinum {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(217 217 217);
+}
+
+@property --color-red {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(255 0 0);
+}
+
+@property --color-fuchsia {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(255 0 255);
+}
